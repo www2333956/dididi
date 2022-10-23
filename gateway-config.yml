@@ -26,7 +26,12 @@ spring:
             - Path=/article/**
           filters:
             - StripPrefix=1
-
+  rabbitmq:
+    host: 139.155.204.28
+    port: 5672
+    username: di
+    password: WDwd123456
+    virtual-host: imooc-news
 
 eureka:
   instance:

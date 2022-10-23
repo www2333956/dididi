@@ -35,3 +35,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka:7000/eureka/     #注册中心的服务地址，高可用集群则配置多个地址
+test:
+  test1: 50
